@@ -7,6 +7,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import hello.model.Pledge;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "*")
 @RestController
 public class GreetingController {
 
